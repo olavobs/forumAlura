@@ -1,13 +1,13 @@
 package com.alura.forum.controller.form;
 
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Length;
 
 import com.alura.forum.model.Curso;
 import com.alura.forum.model.Topico;
 import com.alura.forum.repository.CursoRepository;
+import com.sun.istack.NotNull;
 
 public class TopicoForm {
 
